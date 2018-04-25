@@ -1,10 +1,13 @@
 import styled from "styled-components";
 import React, { Component } from "react";
 
+import getCompliment from "./compliments";
+
 class Compliment extends Component {
   render() {
     const { className } = this.props;
-    return <div className={className}>You look beautiful today ❤️</div>;
+    const compliment = getCompliment();
+    return <div className={className}>{compliment}</div>;
   }
 }
 
