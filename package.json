@@ -16,5 +16,8 @@
     "url": "https://github.com/Walther/styled-compliments/issues"
   },
   "homepage": "https://github.com/Walther/styled-compliments#readme",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.3.2",
+    "styled-components": "^3.2.6"
+  }
 }
