@@ -11,6 +11,6 @@ This is a silly little package inspired by the talk "Styled Components, SSR and 
 ## Contributing / TODO
 
 * [ ] enforce `prettier`
-* [ ] store compliments in a separate file, fetch a random one
+* [x] store compliments in a separate file, fetch a random one
 * [ ] write lots of compliments
 * [ ] translations?
